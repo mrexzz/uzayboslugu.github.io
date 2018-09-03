@@ -1,2 +1,2 @@
 # uzayboslugu.github.io
-Türkçe Arşiv
+Türkce Arsiv Havuzu
