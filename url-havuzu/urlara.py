@@ -13,17 +13,19 @@
 
 
 from sys import argv
+from time import strftime
 
 def ara(url):
     durum = str()
     with open('urlhavuz.txt','r') as dosya:
         for i in dosya.readlines():
-            if i == url+'\n':
+            if i.split(',')[1] == url+'\n':
                 durum = False
 
     if durum != False:
         with open('urlhavuz.txt','a') as dosya:
-            dosya.write(url+'\n'); print('<url eklendi>')
+            tarih = strftime('%d/%m/%Y')+','
+            dosya.write(tarih+url+'\n'); print('<url eklendi>')
     
 ara(argv[1])
 
