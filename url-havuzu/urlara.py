@@ -17,13 +17,13 @@ from time import strftime
 
 def ara(url):
     durum = str()
-    with open('urlhavuz.txt','r') as dosya:
+    with open('urlhavuzu.txt','r') as dosya:
         for i in dosya.readlines():
             if i.split(',')[1] == url+'\n':
                 durum = False
 
     if durum != False:
-        with open('urlhavuz.txt','a') as dosya:
+        with open('urlhavuzu.txt','a') as dosya:
             tarih = strftime('%d/%m/%Y')+','
             dosya.write(tarih+url+'\n'); print('<url eklendi>')
     
