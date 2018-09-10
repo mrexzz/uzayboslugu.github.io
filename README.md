@@ -1,2 +1,2 @@
 # uzayboslugu.github.io
-[ Türkce Kaynak Havuzu ]
+[ Türkçe Kaynak Havuzu ]
