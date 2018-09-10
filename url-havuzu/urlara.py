@@ -3,7 +3,7 @@
 #   dosyanın güncel olduğuna dikkat ediniz.
 
 """
-    urlara.py v0.1
+    urlara.py v0.2
 
     Eklenmek istenen URL adresinin havuzda var yada
     yok olduğunu anlamak icin basit bir arac. Amacı
